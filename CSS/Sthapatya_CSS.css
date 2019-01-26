@@ -1,0 +1,178 @@
+@charset "utf-8";
+/* CSS Document */
+html,
+html * {
+	padding: 0;
+	margin: 0;
+	color: black;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html, body {
+    height: 100%;
+}
+
+/* Mobile View */
+
+#container{
+    display: block;
+    background-color: #0000;
+    border-radius: 6px;
+    padding: 5px;
+    position: fixed;
+    top: -100px;
+    width: 100%;
+    transition: top 0.3s;
+}
+
+.logoAndNavbar{
+    margin: auto;
+}
+
+.logo {
+    position: relative;
+    padding: 4px;
+    height: auto;
+    width: 120px;
+    left: 0px;
+    display: block;
+}
+
+.logo2 {
+    position: relative;
+    height: auto;
+    width: 150px;
+    top: 25px;
+    left: 0px;
+    display: inline;
+}
+
+.logo3 {
+    position: relative;
+    height: auto;
+    width: 90px;
+    top: 15px;
+    right: 10px;
+    float: right;
+    display: inline-block;
+}
+
+.menu a{
+    display: none;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 35px;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    background-color: black;
+}
+
+.menu a:hover{
+    background-color: white;
+    color: black;
+}
+
+.menuBar {
+    float: right;
+    position: absolute;
+    top: 30px;
+    right: 10px;
+}
+
+.menuBar a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+
+.menuBar a:hover{
+    background-color: black;
+    color: white;
+}
+
+.menuBar i{
+    color: red;
+}
+
+.menu.responsive a{
+    display: block;
+}
+
+#backGround {
+    background-image: url("/Photos/backGroundImage3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 100%;
+}
+
+h1.mainHeading {
+    padding-top: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Roboto Mono',monospace;
+    color: white;
+}
+
+h2.mainInfo {
+    padding-top: 120px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+
+i.down {
+    color: white;
+    margin: auto;
+    width: 50%;
+    padding-top: 50px;
+    font-size: 50px;
+}
+
+i.down:hover {
+    color: red;
+    transition: 0.8s;
+}
+
+h3.mainDate {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+#aboutCollege {
+    background-image: url("/Photos/backGroundImage4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 100%;
+}
+
+h1.secondHeading {
+    padding-top: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+#aboutCollege p {
+    color: white;
+    text-align: center;
+    margin: auto;
+    width: 95%;
+    font-size: 18px;
+    font-family: sans-serif;
+    padding: 15px;
+}
